@@ -3,9 +3,6 @@ export default function Menu({ menuItems }) {
     <div className="section-center">
       {menuItems.map((items) => {
         const { id, title, img, desc, price } = items;
-        const myLoader = ({ src, width, quality }) => {
-          return `https://example.com/${src}?w=${width}&q=${quality || 75}`;
-        };
 
         return (
           <article key={id} className="menu-item">

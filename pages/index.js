@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Layout from "../components/Layout";
 import Menu from "../components/Menu";
 import Categories from "../components/Categories";
@@ -39,7 +40,6 @@ export default function Home({ items }) {
   );
 }
 import { menu } from "../lib/items";
-import { useState } from "react";
 export async function getStaticProps() {
   const items = menu;
   return { props: { items } };

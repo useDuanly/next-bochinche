@@ -26,8 +26,11 @@ export default function Home({ items }) {
     >
       <section className="menu section">
         <div className="title">
-          <h2>nuestro menu</h2>
+          <h1>nuestro menu</h1>
           <div className="underline"></div>
+          <p style={{ padding: "1rem" }}>
+            Hola bienvenido a mi 🍳 restaurante el Bochinche 🥰.
+          </p>
         </div>
         <Categories filterItems={filterItems} categories={categories} />
         <Menu menuItems={menuItems} />

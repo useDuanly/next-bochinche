@@ -20,7 +20,7 @@ export default function Home({ items }) {
   };
   return (
     <Layout
-      title={"E Bochiche"}
+      title={"El Bochiche"}
       description="Hola Bienvenido al Restaurate el Bochiche "
       footer={false}
     >
